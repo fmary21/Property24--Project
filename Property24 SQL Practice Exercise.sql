@@ -1,5 +1,3 @@
-----1. Display all properties in the database.
-
 SELECT TOP (1000) [PROPERTY_ID]
       ,[COUNTRY]
       ,[PROVINCE]
@@ -13,6 +11,9 @@ SELECT TOP (1000) [PROPERTY_ID]
       ,[Total_Once_off_Costs]
       ,[Min_Gross_Monthly_Income]
   FROM [HousingProject].[dbo].[property24]
+--------------------------------------------------------------------------------------
+      ----1. Display all properties in the database.
+      SELECT * FROM [HousingProject].[dbo].[property24]
 --------------------------------------------------------------------------------------
 
 ----2. Show only the CITY, PROVINCE, and PROPERTY_PRICE columns.
